@@ -3,7 +3,7 @@ Install using containers - Docker/Podman
 
 The easiest way to setup Mattermost-LDAP is using the docker-compose implementation.
 
-For production use, you must use the `docker-copose.yaml` file available at the root of this repository. Unlike the Demo, this docker-compose file only setup Mattermost-LDAP with an Apache server and a PostgreSQL database.
+For production use, you must use the `docker-compose.yaml` file available at the root of this repository. Unlike the Demo, this docker-compose file only setup Mattermost-LDAP with an Apache server and a PostgreSQL database.
 
 This implementation uses an embedded Oauth server, which can be configured by environment variables.
 
